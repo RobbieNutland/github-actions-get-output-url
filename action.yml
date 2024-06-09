@@ -1,4 +1,4 @@
-name: 'Output URL'
+name: 'Get Output URL'
 description: 'Generate Job URLs'
 author: 'Rob Nutland'
 inputs:
