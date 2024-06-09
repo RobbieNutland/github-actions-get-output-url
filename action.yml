@@ -1,0 +1,25 @@
+name: 'Output URL'
+description: 'Generate Job URLs'
+author: 'Rob Nutland'
+inputs:
+  owner:
+    description: Owner of the repo containing the workflow.
+  repo:
+    description: Repo containing the workflow.
+  workflow_id:
+    description: Workflow name or numerical identifier.
+  ref:
+    description: Tag or branch of the repo that the workflow should execute on.
+  inputs:
+    description: The inputs that are to be passed to the workflow.
+  job_index:
+    description: The index number of the workflow's job that a log URL should be returned for.
+outputs:
+  url:
+    description: 'URL to the log of the specified workflow job.'
+runs:
+  using: 'node12'
+  main: 'lib/main.js'
+branding:
+  icon: 'lock'
+  color: 'yellow'
