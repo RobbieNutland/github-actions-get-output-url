@@ -2,12 +2,8 @@ name: 'Get Output URL'
 description: 'Generate Job URLs'
 author: 'Rob Nutland'
 inputs:
-  APP_ID:
-    description: Numeric identifier of the GitHub App with permissions to execute the required repository workflow.
-  APP_PRIVATEKEY:
-    description: The private key of the GitHub app.
-  INSTALLATION_ID:
-    description: Uniquely identifies a specific installation of the GitHub app to a repository. 
+  TOKEN:
+    description: GitHub App token. 
   OWNER:
     description: Owner of the repo containing the workflow.
   REPO:
