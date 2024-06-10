@@ -24,7 +24,7 @@
     "url": "^0.11.3",
     "follow-redirects": "^1.15.6",
     "@octokit/core": "^5",
-    "node-fetch-cjs": "^3"
+    "node-fetch": "^3"
   },
   "devDependencies": {
     "@types/jest": "24.0.13",
