@@ -34,7 +34,7 @@ jobs:
           REPO: 'MyRepository'
           WORKFLOW_ID: 'MyWorkflow'
           REF: 'main'
-          INPUTS: '{"userID": "1234567890ABCDEFGHIJKLMNOPQR", "resource": "myData"}'
+          INPUTS: '{userID: "1234567890ABCDEFGHIJKLMNOPQR", resource: "myData"}'
           JOB_INDEX: 0
 
       - name: DUMP URL
