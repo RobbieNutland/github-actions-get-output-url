@@ -25,7 +25,7 @@ outputs:
     description: 'URL to the log of the specified workflow job.'
 runs:
   using: 'node12'
-  main: 'lib/main.mjs'
+  main: 'lib/main.js'
 branding:
   icon: 'lock'
   color: 'yellow'
