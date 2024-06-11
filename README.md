@@ -10,8 +10,7 @@ Gets the URL of a workflow's log without redirecting to the location and insecur
 
 ## Usage
 
-The required inputs are `APP_ID`, `APP_PRIVATEKEY`, `INSTALLATION_ID`, `OWNER`, `REPO`, `WORKFLOW_ID`, `REF`, `INPUTS`, and `JOB_INDEX`. It is recommended to store the APP_PRIVATEKEY as an encrypted [environment variable.](https://help.github.com/en/articles/virtual-environments-for-github-actions#creating-and-using-secrets-encrypted-variables)
-
+The required inputs are `TOKEN`, `OWNER`, `REPO`, `WORKFLOW_ID`, `REF`, `INPUTS`, and `JOB_INDEX`.
 The output where the generated URL is in `url`. To use it in a next step use `${{steps.<step_id>.outputs.url}}`.
 
 ### Example usage
