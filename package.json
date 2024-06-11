@@ -1,8 +1,8 @@
 {
-  "name": "github-actions-jwt-generator",
+  "name": "github-actions-output-url",
   "version": "0.0.0",
   "private": true,
-  "description": "GitHub Actions JWT Generator",
+  "description": "GitHub Actions Output URL",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -17,7 +17,7 @@
     "node",
     "setup"
   ],
-  "author": "Marton Papp <morz@morz.hu>",
+  "author": "Rob Nutland",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "1.10.1",
