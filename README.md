@@ -27,9 +27,7 @@ jobs:
         id: outputURL
         uses: robbienutland/github-actions-get-output-url@1.0.0
         with:
-          APP_ID: '101202'
-          APP_PRIVATEKEY: ${{secrets.APP_PRIVATEKEY}} # Save the key as if it has been printed to the console (i.e. not enclosed in quotes and where newline characters are actually represented as new lines).
-          INSTALLATION_ID: '12345678'
+          TOKEN: ghs_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           OWNER: 'RobbieNutland'
           REPO: 'MyRepository'
           WORKFLOW_ID: 'MyWorkflow'
