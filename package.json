@@ -1,8 +1,8 @@
 {
-  "name": "github-actions-output-url",
+  "name": "github-actions-get-output-url",
   "version": "0.0.0",
   "private": true,
-  "description": "GitHub Actions Output URL",
+  "description": "GitHub Actions Get Output URL",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
